@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./style.css">
+  <script src="./script.js" defer></script>
+  <title>Tip calculator app</title>
+</head>
+<body>
+  <img class="logo" src="./images/logo.svg" alt="">
+  <div class="container">
+    <div class="Bill">
+      <label for="billAmount" id="billNumber" >Bill</label>
+      <input type="text" id="billAmount" placeholder="0.00">
+    </div>
+    <div class="ButtonBox">
+      <h2 class="label" >Select Tip %</h2>
+      <div class="Buttons">
+          <button class="itembtn" id="item5" >5%</button>
+          <button class="itembtn" id="item10" >10%</button>
+          <button class="itembtn" id="item15" >15%</button>
+          <button class="itembtn" id="item25" >25%</button>
+          <button class="itembtn" id="item50" >50%</button>
+          <input type="text" id="customAmount" placeholder="Custom" name="customAmount">
+      </div>
+      <div class="people">
+        <label for="PeopleAmount">Number of People</label>
+        <label class="error" for="PeopleAmount" >Can't be zero</label>
+        <input type="text" id="PeopleAmount" placeholder="0">
+      </div>
+      <div class="ShowScreen">
+        <div class="footer">
+          <div class="TipPerson">
+            <h3>Tip Amount</h3>
+            <p>/ person</p>
+          </div>
+          <div class="dollar">
+            
+            <div class="Sum1"></div>
+          </div>
+        
+          <div class="Total">
+            <div class="TipPerson">
+              <h3>Total</h3>
+              <p>/ person</p>
+            </div>
+            <div class="dollar">
+              
+              <div class="totalPerson"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="resButton">Reset</button>
+    </div>
+  </div>
+  
+</body>
+</html>

@@ -1,0 +1,473 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #C5E4E7;
+
+
+}
+
+.logo {
+    height: 53.13600158691406px;
+    width: 86.66400146484375px;
+    left: 144px;
+    top: 50px;
+    border-radius: 0px;
+
+    margin-top: 50px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 41px;
+    background-color: white;
+    border-radius: 25px 25px 0px 0px;
+    height: 789px;
+    width: 100%;
+    left: 0px;
+    top: 144px;
+    border-radius: [object Object]px;
+
+
+}
+
+
+input {
+    height: 48px;
+    width: 311px;
+    left: 0px;
+    top: 0px;
+    border-radius: 5px;
+    color: #F3F9FA;
+
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    appearance: none;
+}
+
+
+
+
+
+.Bill {
+    display: flex;
+    flex-direction: column;
+    font-family: Space Mono;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+
+    color: #5E7A7D;
+    margin-top: 32px;
+    margin-left: 32px;
+
+    border-radius: 5px;
+}
+
+
+
+#billAmount {
+    background: url(./images/icon-dollar.svg);
+    background-repeat: no-repeat;
+    background-position: left 20px center;
+    background-size: 13px;
+    background-color: #F3F9FA;
+    font-family: Space Mono;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0px;
+    text-align: right;
+    color: #00474B;
+    border: none;
+    padding-right: 20px;
+}
+
+
+
+.label {
+    height: 24px;
+    width: 140px;
+    left: 0px;
+    top: 0px;
+    border-radius: nullpx;
+
+    font-family: Space Mono;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #5E7A7D;
+    margin: 32px 203px 32px 32px;
+}
+
+.ButtonBox {
+    position: relative;
+    left: 50px;
+}
+
+
+.Buttons {
+    display: grid;
+    grid-template-columns: auto auto;
+    height: 216px;
+    width: 311px;
+    left: 32px;
+    top: 286px;
+
+}
+
+.itembtn:hover {
+    background-color: #26C2AE;
+    cursor: pointer;
+}
+
+.itembtn {
+    height: 48px;
+    width: 146.6311798095703px;
+    left: 0px;
+    top: 0px;
+    border-radius: 5px;
+    background-color: #00474B;
+
+    font-family: Space Mono;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: white;
+    border: none;
+
+}
+
+
+#customAmount {
+    height: 48px;
+    width: 147.81369018554688px;
+    left: 0px;
+    top: 0px;
+    border-radius: 5px;
+    border: none;
+    background-color: #F3F9FA;
+
+    font-family: Space Mono;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0px;
+    text-align: right;
+    color: #547878;
+    padding-right: 10px;
+
+
+}
+
+.people {
+    height: 78px;
+    width: 311px;
+    left: 32px;
+    top: 534px;
+    border-radius: 0px;
+
+    font-family: Space Mono;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+    overflow-y: hidden;
+    overflow-x: hidden;
+
+    color: #5E7A7D
+}
+
+.error {
+    color: #E17457;
+    margin-left: 15px;
+    font-family: Space Mono;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: right;
+    display: none;
+}
+
+#PeopleAmount {
+    background-image: url(./images/icon-person.svg);
+    background-repeat: no-repeat;
+    background-position: left 20px center;
+    background-size: 13px;
+    background-color: #F3F9FA;
+    font-family: Space Mono;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0px;
+    text-align: right;
+    color: #00474B;
+    border: none;
+    padding-right: 20px;
+
+}
+
+.ShowScreen {
+    height: 257px;
+    width: 327px;
+    border-radius: 15px;
+    background-color: #00474B;
+    margin-top: 32px;
+}
+
+
+
+
+.footer {
+    position: relative;
+    top: 39px;
+    left: 24px;
+}
+
+
+.TipPerson {
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.TipPerson h3 {
+    color: white;
+    font-family: Space Mono;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+
+}
+
+.TipPerson p {
+    height: 19px;
+    width: 64px;
+    left: 0px;
+    top: 24px;
+    border-radius: nullpx;
+
+    font-family: Space Mono;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #7F9D9F;
+
+}
+
+
+.dollar {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    height: 47px;
+    width: 146px;
+    left: 130px;
+    top: -40px;
+    border-radius: nullpx;
+
+    font-family: Space Mono;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 47px;
+    letter-spacing: -0.6666666865348816px;
+    text-align: right;
+    color: #26C2AE;
+
+
+}
+
+.Sum1 {
+    overflow-wrap: anywhere;
+}
+
+.totalPerson {
+    overflow-wrap: anywhere;
+}
+
+
+.resButton {
+    position: relative;
+    height: 48px;
+    width: 281px;
+    left: 0px;
+    top: -80px;
+    border-radius: 15px;
+    background-color: #26C2AE;
+    cursor: pointer;
+
+    font-family: Space Mono;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #00474B;
+    margin: 13px 24px 22px;
+    border: none;
+}
+
+
+
+
+.ResButton:hover {
+    background-color: #9FE8DF;
+}
+
+
+@media screen and (min-width:780px) {
+
+    .container {
+        height: 421px;
+        width: 920px;
+        left: 260px;
+        top: 304px;
+        border-radius: 25px;
+
+        display: flex;
+        flex-direction: row;
+
+    }
+
+    .logo {
+
+        height: 53.13600158691406px;
+        width: 86.66400146484375px;
+        margin-top: 123px;
+    }
+
+    .Bill {
+        position: relative;
+        bottom: 173px;
+        left: 20px;
+
+    }
+
+
+    .ButtonBox {
+        position: relative;
+        left: -750px;
+        display: flex;
+        height: 150px;
+
+    }
+
+
+    .Buttons {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        gap: 14px;
+        height: 48px;
+        width: 117px;
+        position: relative;
+        top: 20px;
+        left: 11px;
+    }
+
+    .label {
+        height: 24px;
+        width: 140px;
+
+        font-family: Space Mono;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 24px;
+        letter-spacing: 0px;
+        text-align: left;
+        color: #5E7A7D;
+        position: relative;
+        left: 360px;
+        top: -50px;
+    }
+
+    .people {
+        position: relative;
+        top: 150px;
+        left: -110px;
+        height: 78px;
+        width: 311px;
+        border-radius: 0px;
+
+        font-family: Space Mono;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 24px;
+        letter-spacing: 0px;
+        text-align: left;
+        overflow-y: hidden;
+        overflow-x: hidden;
+
+        color: #5E7A7D
+    }
+
+
+    .ShowScreen {
+        position: relative;
+        top: -150px;
+        height: 377px;
+        width: 353px;
+        left: 84px;
+        border-radius: 15px;
+        background-color: #00474B;
+
+
+    }
+
+    #billAmount {
+        height: 48px;
+        width: 379px;
+        left: 0px;
+        top: 0px;
+        border-radius: 5px;
+
+    }
+
+
+    .resButton {
+        position: relative;
+        height: 48px;
+        width: 283px;
+        left: -258px;
+        top: 180px;
+        border-radius: 5px;
+        background-color: #26C2AE;
+        cursor: pointer;
+
+        font-family: Space Mono;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 30px;
+        letter-spacing: 0px;
+        text-align: center;
+        color: #00474B;
+
+        border: none;
+    }
+
+
+}
