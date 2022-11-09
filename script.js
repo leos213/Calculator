@@ -92,6 +92,7 @@ function resetApp(){
     peopleInput.value='';
     tipAmount.innerHTML='$0.00';
     totalPerson.innerHTML='$0.00';
+    errorDisp(); 
     customIn.value='';
     errorText.style.display = 'none';
     peopleInput.style.borderStyle = "none";
